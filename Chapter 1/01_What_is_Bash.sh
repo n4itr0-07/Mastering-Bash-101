@@ -36,3 +36,11 @@ elif [ $age -lt 20 ]; then
 else
   echo "You are an adult"
 fi
+
+#Print Calender of 2025
+cal 2025
+
+
+
+date 
+# will print date
