@@ -41,3 +41,56 @@ readonly PI=3.14159
 # Trying to change the value of a constant variable will result in an error.
 # PI=3.1415926
 
+
+#TODO: ***********************************************************************************************************************************
+
+# Before you go, try turning Hello World script to a smart HelloWorld script
+# Now since you just learned how to do command substitution, it would make sense to visit the Hello World script one last time to perfect it!
+
+# Last time, you asked the user to enter his/her name so the script greets them; this time, you are not going to ask, your script already knows it!
+
+# Use the whoami command along with command substitution to greet whoever run the script:
+
+echo "Hello, $(whoami)!"
+
+
+#TODO: ***********************************************************************************************************************************
+
+# Now, let's create a simple calculator script.
+
+# Write a script that takes two numbers as command line arguments and performs addition, subtraction, multiplication, and division on them.
+
+# The script should check if the correct number of arguments are provided and if they are numbers. If not, it should display an error message and exit.
+
+# For example, if you run the script like this:
+
+
+# ./calculator.sh 5 3
+
+# It should output:
+
+# 5 + 3 = 8
+# 5 - 3 = 2
+# 5 * 3 = 15
+# 5 / 3 = 1.66666666667
+
+# Remember to handle division by zero errors and display an appropriate error message.
+
+#TODO: ***********************************************************************************************************************************
+
+# Lastly, let's create a simple script that prints the current date and time in a specific format.
+
+# Write a script that displays the current date and time in the format:
+
+# Monday, January 01, 2022 12:34:56 PM
+
+# You can use the date command along with some formatting options to achieve this.
+
+# For example, if you run the script like this:
+
+
+# ./current_date_time.sh
+
+# It should output:
+
+# Monday, January 01, 2022 12:34:56 PM
