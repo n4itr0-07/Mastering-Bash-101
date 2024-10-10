@@ -94,3 +94,87 @@ echo "Hello, $(whoami)!"
 # It should output:
 
 # Monday, January 01, 2022 12:34:56 PM
+
+# Remember to handle different time zones and display the date and time in the specified format.
+
+#TODO: ***********************************************************************************************************************************
+
+# Now, let's create a simple script that prints the current weather in a specific location.
+
+# Write a script that uses an API to fetch the current weather data for a given location and displays it in a human-readable format.
+
+# You can use the OpenWeatherMap API to fetch the weather data. You will need to sign up for an API key and replace the YOUR_API_KEY placeholder with your actual API key.
+
+# For example, if you run the script like this:
+
+
+# ./current_weather.sh New York
+
+# It should output:
+
+# Current weather in New York:
+# Temperature: 29°C (86°F)
+# Description: clear sky
+# Humidity: 87%
+# Wind speed: 3.1 m/s (10.8 km/h)
+
+# Remember to handle errors and display appropriate error messages.
+
+#TODO: ***********************************************************************************************************************************
+
+# Lastly, let's create a simple script that generates a random password.
+
+# Write a script that generates a random password with a specified length and includes at least one uppercase letter, one lowercase letter, one digit, and one special character.
+
+# You can use the tr command along with some randomization options to achieve this.
+
+# For example, if you run the script like this:
+
+
+# ./generate_password.sh 12
+
+# It should output:
+
+# k%hX9E^Y!
+
+# Remember to handle errors and display appropriate error messages.
+
+#TODO: ***********************************************************************************************************************************
+
+# Now, let's create a simple script that compresses a given directory using the gzip command.
+
+# Write a script that takes a directory path as a command line argument and compresses it using the gzip command.
+
+# You can use the gzip command along with the -r option to recursively compress all files in the specified directory.
+
+# For example, if you run the script like this:
+
+
+# ./compress_directory.sh /path/to/directory
+
+# It should output:
+
+# Compressing directory /path/to/directory...
+# Directory /path/to/directory compressed to /path/to/directory.tar.gz
+
+# Remember to handle errors and display appropriate error messages.
+
+#TODO: ***********************************************************************************************************************************
+
+# Lastly, let's create a simple script that extracts a compressed file using the gzip command.
+
+# Write a script that takes a compressed file path as a command line argument and extracts it using the gzip command.
+
+# You can use the gzip command along with the -d option to recursively extract all files from the specified compressed file.
+
+# For example, if you run the script like this:
+
+
+# ./extract_compressed_file.sh /path/to/compressed_file.gz
+
+# It should output:
+
+# Extracting compressed file /path/to/compressed_file.gz...
+# Extracted directory /path/to/extracted_directory
+
+# Remember to handle errors and display appropriate error messages.
