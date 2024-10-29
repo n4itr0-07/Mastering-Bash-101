@@ -1,4 +1,3 @@
-```md
 # Conditional Statements in Bash
 
 Bash conditional statements allow you to execute commands based on specific conditions. The most common structures are `if`, `else`, `elif`, and `case`. These are useful for handling different scenarios in a script, like checking file existence, comparing strings, or making decisions based on user input.
