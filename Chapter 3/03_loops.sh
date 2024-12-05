@@ -49,5 +49,3 @@ for file in *.sh
 do
     echo "Looping ... file $file"
 done
-
-
